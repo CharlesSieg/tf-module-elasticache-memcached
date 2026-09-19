@@ -52,7 +52,7 @@ variable "domain_name" {
 }
 
 variable "engine_version" {
-  default     = "4.0.10"
+  default     = "1.6.6"
   description = "Version number of the cache engine to be used."
   type        = string
 }
@@ -88,7 +88,7 @@ variable "ok_actions" {
 }
 
 variable "parameter_group_name" {
-  default     = "default.memcached1.4"
+  default     = "default.memcached1.6"
   description = "The name of the parameter group to associate with this cache cluster."
   type        = string
 }
